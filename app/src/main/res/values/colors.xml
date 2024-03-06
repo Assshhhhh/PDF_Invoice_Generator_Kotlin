@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="AntiqueWhite">#FAEBD7</color>
+    <color name="AliceBlue">#F0F8FF</color>
+    <color name="BurlyWood">#DEB887</color>
+    <color name="CornFlowerBlue">#6495ED</color>
+    <color name="DarkSeaGreen">#8FBC8F</color>
+    <color name="DarkTurquoise">#00CED1</color>
+    <color name="HotPink">#FF69B4</color>
+    <color name="LightGreen">#90EE90</color>
+    <color name="LightPink">#FFB6C1</color>
+    <color name="Yellow">#FFFF00</color>
+    <color name="Lime">#00FF00</color>
+    <color name="Red">#FF0000</color>
+    <color name="OrangeRed">#FF4500</color>
+    <color name="color2">#2196F3</color>
+    <color name="color3">#4CAF50</color>
+
+    <color name="NavyBlue">#050D3A</color>
+    <color name="DarkBlue">#000513</color>
+
+    //Extra Colors
+    <color name="green">#11D99B</color>
+    <color name="yellow">#D9D92F</color>
+    <color name="grey">#E8E8E8</color>
+    <color name="colorDivider">#FFFFFFFF</color>
+    <color name="red">#FF5151</color>
+
+</resources>

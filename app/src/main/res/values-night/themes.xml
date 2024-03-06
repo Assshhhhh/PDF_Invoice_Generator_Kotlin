@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PDFInvoiceGenerator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/DarkSeaGreen</item>-->
+        <item name="android:statusBarColor">@color/DarkSeaGreen</item>
+    </style>
+</resources>

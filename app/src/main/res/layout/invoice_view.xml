@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/invoice_view"
+    android:padding="16dp">
+
+    <!-- Invoice header -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Invoice"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Customer details -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customer Details"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Customer name -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: John Doe"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- Customer address -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address: 123 Main St, City, Country"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Invoice details -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Invoice Details"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Invoice number -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Invoice Number: INV001"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- Date -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date: 2024-03-06"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Item details -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Items"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Item 1 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Item Name: Product A"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- Item 2 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Item Name: Product B"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Total -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Amount: $100.00"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_generate_invoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Invoice"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/DarkSeaGreen"
+        />
+
+</LinearLayout>

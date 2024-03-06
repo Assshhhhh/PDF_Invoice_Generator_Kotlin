@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PDFInvoiceGenerator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/DarkSeaGreen</item>-->
+        <item name="android:statusBarColor">@color/DarkSeaGreen</item>
+
+    </style>
+
+    <style name="Theme.PDFInvoiceGenerator" parent="Base.Theme.PDFInvoiceGenerator" />
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:endIconMode="clear_text"
+        app:helperText="Enter content for the PDF"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Content"
+            android:id="@+id/edit_pdf_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/DarkSeaGreen"
+        android:layout_margin="16dp"
+        android:text="Create PDF from Edit Text"
+        android:id="@+id/create_from_edit_button"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/DarkSeaGreen"
+        android:layout_margin="16dp"
+        android:text="Create PDF from View"
+        android:id="@+id/create_from_view_button"
+        />
+
+
+
+</LinearLayout>
